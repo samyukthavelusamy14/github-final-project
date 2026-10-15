@@ -1,23 +1,21 @@
 # Simple Interest Calculator
 
-A simple application or script that calculates the interest earned or owed on a principal amount over a specific period.
+A simple command-line or web-based application that calculates the simple interest based on the principal amount, annual interest rate, and time period provided by the user.
 
 ## Formula Used
-The simple interest is calculated using the standard formula:
-SI = (P * R * T) / 100
+$$\text{Simple Interest} = \frac{P \times R \times T}{100}$$
 
 Where:
-- **P** = Principal amount (the initial sum of money)
-- **R** = Annual interest rate (in percentage)
-- **T** = Time period (in years)
+* **P** = Principal amount
+* **R** = Annual interest rate (in %)
+* **T** = Time period (in years)
 
 ## Features
-- Accepts user inputs for principal, rate, and time.
-- Validates input values to ensure accuracy.
-- Computes and displays the final interest and total amount.
+* Calculate total simple interest earned/owed.
+* Display the final total amount (Principal + Interest).
+* User-friendly input interface.
 
 ## How to Run
-1. Open the source file in your development environment.
-2. Provide the requested inputs when prompted.
-3. View the generated interest calculation instantly.
-4.
+1. Clone the repository.
+2. Open the project directory in your terminal or browser.
+3. Run the application script.
